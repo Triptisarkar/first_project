@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "this-is-a-login-feature-for-verify-the-login-functionality;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3191090900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open demoblaze application",
+            "match": {
+              "location": "Stepdefclass.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52365500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click login",
+            "match": {
+              "location": "Stepdefclass.click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210183700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter username",
+            "match": {
+              "location": "Stepdefclass.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177160000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter password",
+            "match": {
+              "location": "Stepdefclass.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98580700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify user can login",
+            "match": {
+              "location": "Stepdefclass.verify_user_can_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify user in cart page",
+        "description": "",
+        "id": "this-is-a-login-feature-for-verify-the-login-functionality;verify-user-in-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1830436500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Open demoblaze application",
+            "match": {
+              "location": "Stepdefclass.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389799900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click cart link",
+            "match": {
+              "location": "Stepdefclass.click_cart_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a login feature for verify the login functionality",
+    "description": "",
+    "id": "this-is-a-login-feature-for-verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "login2.feature"
+  }
+]
